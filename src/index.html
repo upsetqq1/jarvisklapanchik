@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Юра</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main id="stage" aria-label="Персонаж Юра">
+      <img id="character" src="../yura-transparent.png" alt="Временное изображение персонажа Юра" draggable="false" />
+      <section id="panel" class="panel hidden" aria-label="Панель Юры">
+        <div class="panel-top"><strong>Юра</strong><button id="close" aria-label="Закрыть панель">×</button></div>
+        <p>Прототип desktop-персонажа</p>
+        <div class="panel-actions"><button id="hide">Скрыть панель</button><button id="exit">Закрыть Юру</button></div>
+        <small>Тестируем перетаскивание и клики по рабочему столу.</small>
+      </section>
+    </main>
+    <script src="./renderer.js"></script>
+  </body>
+</html>

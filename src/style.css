@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: transparent; font-family: "Segoe UI", sans-serif; }
+#stage { position: relative; width: 100vw; height: 100vh; }
+#character { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; user-select: none; -webkit-user-drag: none; }
+.panel { position: absolute; z-index: 2; right: 8px; top: 8px; width: 226px; padding: 14px; border: 1px solid #ffffff35; border-radius: 14px; color: #f7f4ff; background: #202334f2; box-shadow: 0 10px 30px #0008; }
+.panel.hidden { display: none; }
+.panel-top { display: flex; align-items: center; justify-content: space-between; font-size: 18px; }
+.panel p { margin: 10px 0; font-size: 13px; }
+.panel small { display: block; margin-top: 10px; color: #c1bfd0; line-height: 1.35; }
+button { border: 0; border-radius: 8px; padding: 7px 10px; color: white; background: #525a7b; cursor: pointer; }
+#close { padding: 2px 8px; font-size: 20px; background: transparent; }
+.panel-actions { display: flex; gap: 7px; }
+.panel-actions button { flex: 1; font-size: 12px; }
